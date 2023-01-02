@@ -9,6 +9,10 @@ public class PrintNumbersBetweenOneToThousand {
         // Todo : Add initialization code
 
         // Todo: Add loop with condition and update logic
+        inti=1;
+        while(i>=1000)
+            System.out.println(i);
+        i++;
 
     }
 }
