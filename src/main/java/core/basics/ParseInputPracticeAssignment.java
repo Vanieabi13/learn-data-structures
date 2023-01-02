@@ -1,4 +1,5 @@
 package core.basics;
+import java.util.Scanner;
 
 public class ParseInputPracticeAssignment {
 
@@ -9,10 +10,13 @@ public class ParseInputPracticeAssignment {
         /**
          * TODO 1: Declare Scanner object
          */
+        Scanner hk = new Scanner(System.in);
+
 
         /**
          * TODO 2: Store solution to variable a
          */
+        a = hk.nextInt();
 
         System.out.println("Received Input "+a);
         return a;
@@ -24,10 +28,12 @@ public class ParseInputPracticeAssignment {
         /**
          * TODO 1: Declare Scanner object
          */
+        Scanner sc = new Scanner(System.in);
 
         /**
          * TODO 2: Store solution to variable a
          */
+        a = sc.nextFloat();
 
         System.out.println("Received Input "+a);
         return a;
@@ -39,10 +45,12 @@ public class ParseInputPracticeAssignment {
         /**
          * TODO 1: Declare Scanner object
          */
+        Scanner sc = new Scanner(System.in);
 
         /**
          * TODO 2: Store solution to variable a
          */
+        a = sc.nextDouble();
 
 
         System.out.println("Received Input "+a);
@@ -55,11 +63,12 @@ public class ParseInputPracticeAssignment {
         /**
          * TODO 1: Declare Scanner object
          */
+        Scanner sc = new Scanner(System.in);
 
         /**
          * TODO 2: Store solution to variable a
          */
-
+        a = sc.nextBoolean();
 
         System.out.println("Received Input "+a);
         return a;
@@ -71,10 +80,11 @@ public class ParseInputPracticeAssignment {
         /**
          * TODO 1: Declare Scanner object
          */
-
+        Scanner sc = new Scanner(System.in);
         /**
          * TODO 2: Store solution to variable a
          */
+        a = sc.next();
 
         System.out.println("Received Input "+a);
         return a;
